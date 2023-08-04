@@ -1,0 +1,15 @@
+StaticVaultReverts.t.sol
+├── when static vault is not initialized with compounding enabled
+│  └── it revert with InvalidVaultConfig error
+│ when static vault is initialized with max stake length set to zero
+│   └── it revert with InvalidVaultConfig error
+│ when static vault is initialized with reward rate set to zero
+│   └── it revert with InvalidVaultConfig error
+│ when static vault is not initialized and user tries to deposit
+│   └── it revert with VaultNotInitialized error
+│ when static vault is initialized and with static config and admin tries to update reward rate
+│   └── it revert with CannotUpdateRewardRate error
+│ when static vault is initialized Paused and user tries to deposit
+│   └── it revert with (Pausable: paused) error
+│ when static vault is initialized but no rewards were commissioned
+    └── it revert with NoRewardsAvailable error

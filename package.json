@@ -1,0 +1,27 @@
+{
+  "name": "hardhat-project",
+  "license": "MIT",
+  "scripts": {
+    "deploy:polygon:vault::predefined": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/vault/deployVault.js --network polygon",
+    "deploy:polygon:vault::v2": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/vault/deployVaultV2.js --network polygon",
+    "deploy:polygon:vault:and::token": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/vault/deployTokenAndVault.js --network polygon",
+    "deploy:polygon:vault:token": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/token/deployToken.js --network polygon",
+    "deploy:polygon:vault:rewards:token": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/token/deployRewardsToken.js --network polygon",
+    "deploy:local:vault::predefined": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/vault/deployVault.js --network localhost",
+    "deploy:local:vault::v2": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/vault/deployVaultV2.js --network localhost",
+    "deploy:local:vault:and::token": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/vault/deployTokenAndVault.js --network localhost",
+    "deploy:local:vault:token": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/token/deployToken.js --network localhost",
+    "deploy:local:vault:rewards:token": "npx hardhat clean && npx hardhat compile  && npx hardhat run ./scripts/token/deployRewardsToken.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-foundry": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/hardhat-upgrades": "^2.1.0",
+    "dotenv": "^16.3.1"
+  }
+}

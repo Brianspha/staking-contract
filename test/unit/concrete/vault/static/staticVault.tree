@@ -1,0 +1,11 @@
+staticVault.t.sol
+├── when static vault vault is set to static, not paused, reward is not 0, max stake length is not zero and when vault is not paused
+│  └── it should allow user to deposit their tokens
+├── when static vault vault is set to static, not paused, reward is not 0, max stake length is not zero and when vault is not paused
+│   └── it should allow user to withdraw a portion of their rewards thus far
+├── when static vault vault is set to static, not paused, reward is not 0, max stake length is not zero and when vault is not paused
+│   └── it should allow user to withdraw all their rewards thus far
+├── when static vault vault is set to static, not paused, reward is not 0, max stake length is not zero and when vault is not paused
+│   └── it should allow user to withdraw a portion of their staked tokens 
+├── when static vault vault is set to static, not paused, reward is not 0, max stake length is not zero and when vault is not paused
+   └── it should allow user to withdraw everything they have staked inclusive of their rewards

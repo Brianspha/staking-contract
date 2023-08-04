@@ -1,0 +1,3 @@
+VaultTokenTest.t.sol
+├── when vault token is initialized and not paused
+   └── it should allow users to transfer tokens 

@@ -1,0 +1,5 @@
+VaultTokenRevertTest.t.sol
+├── when vault token is not initialized
+│  └── it should revert with error (ERC20: transfer amount exceeds balance)
+├── when vault token is paused 
+   └── it should revert with error (Pausable: paused)
