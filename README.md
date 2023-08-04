@@ -58,8 +58,14 @@ There are scripts that aid in the deployment of the Vault and Token one for loca
 All deployment scripts denoted with **::local** refer to local deployment
 All deployment scripts denoted with **::polygon** refer to Polygon testnet deployment
 
+To run a deployment you can run
+
+`yarn deploy:local:vault:and::token` or `npm run deploy:local:vault:and::token`
+
+Which deploys a vault with a token
+
 ### Deployed Contracts
 
-1. Vault Token: https://mumbai.polygonscan.com/address/0x4b3486f7b072748185BDc9F512b9d9D9bdABc139
-2. Rewards Token: https://mumbai.polygonscan.com/address/0x8bbb490a6fb95939c5348f0d97d993269f657cfc
-3. Static Vault: https://mumbai.polygonscan.com/address/0x66a0a007c49428Bd0C217598fa60b508a3F10795
+1. Vault Token: https://mumbai.polygonscan.com/address/0xeF8692aA01a40640378dF47C6A14db156Ec5C8c0
+2. Rewards Token: https://mumbai.polygonscan.com/address/0x56bbcCa84ea537C49465819255b814F66EcF031d
+3. Static Vault: https://mumbai.polygonscan.com/address/0x611e1a02bb7D668F6241101502b6255fDA413936

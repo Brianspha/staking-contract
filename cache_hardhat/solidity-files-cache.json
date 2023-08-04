@@ -540,6 +540,62 @@
         "ReentrancyGuardUpgradeable"
       ]
     },
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/UUPSUpgradeable.sol": {
+      "lastModificationDate": 1690842208542,
+      "contentHash": "52ef5d6c909d6f8ef3077445d3328eca",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/UUPSUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "remappings": [
+            "ds-test/=lib/forge-std/lib/ds-test/src/",
+            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "forge-std/=lib/forge-std/src/",
+            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
+            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
+            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+          ]
+        }
+      },
+      "imports": [
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../ERC1967/ERC1967UpgradeUpgradeable.sol",
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UUPSUpgradeable"
+      ]
+    },
     "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/token/ERC20/extensions/ERC4626Upgradeable.sol": {
       "lastModificationDate": 1690842208550,
       "contentHash": "fae147603b47400d84f8a9dbf8a2ab7f",
@@ -598,10 +654,10 @@
         "ERC4626Upgradeable"
       ]
     },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/UUPSUpgradeable.sol": {
-      "lastModificationDate": 1690842208542,
-      "contentHash": "52ef5d6c909d6f8ef3077445d3328eca",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/UUPSUpgradeable.sol",
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1690842208559,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol",
       "solcConfig": {
         "version": "0.8.19",
         "settings": {
@@ -643,15 +699,13 @@
         }
       },
       "imports": [
-        "../../interfaces/draft-IERC1822Upgradeable.sol",
-        "../ERC1967/ERC1967UpgradeUpgradeable.sol",
-        "./Initializable.sol"
+        "../proxy/utils/Initializable.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "UUPSUpgradeable"
+        "ContextUpgradeable"
       ]
     },
     "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol": {
@@ -708,60 +762,6 @@
         "Initializable"
       ]
     },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol": {
-      "lastModificationDate": 1690842208559,
-      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/ContextUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "remappings": [
-            "ds-test/=lib/forge-std/lib/ds-test/src/",
-            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "forge-std/=lib/forge-std/src/",
-            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
-            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
-            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
-            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
-            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
-            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
-          ]
-        }
-      },
-      "imports": [
-        "../proxy/utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ContextUpgradeable"
-      ]
-    },
     "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/utils/AddressUpgradeable.sol": {
       "lastModificationDate": 1690842208559,
       "contentHash": "c30c805386fda8a42ff515da963d3a95",
@@ -812,6 +812,273 @@
       ],
       "artifacts": [
         "AddressUpgradeable"
+      ]
+    },
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/interfaces/draft-IERC1822Upgradeable.sol": {
+      "lastModificationDate": 1690842208529,
+      "contentHash": "a6883cfd85607b16c121a02728369eb3",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/interfaces/draft-IERC1822Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "remappings": [
+            "ds-test/=lib/forge-std/lib/ds-test/src/",
+            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "forge-std/=lib/forge-std/src/",
+            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
+            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
+            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+          ]
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1822ProxiableUpgradeable"
+      ]
+    },
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol": {
+      "lastModificationDate": 1690842208541,
+      "contentHash": "2587366284baa690cce0accaca1a20f9",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "remappings": [
+            "ds-test/=lib/forge-std/lib/ds-test/src/",
+            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "forge-std/=lib/forge-std/src/",
+            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
+            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
+            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+          ]
+        }
+      },
+      "imports": [
+        "../beacon/IBeaconUpgradeable.sol",
+        "../../interfaces/IERC1967Upgradeable.sol",
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../../utils/AddressUpgradeable.sol",
+        "../../utils/StorageSlotUpgradeable.sol",
+        "../utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967UpgradeUpgradeable"
+      ]
+    },
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/utils/StorageSlotUpgradeable.sol": {
+      "lastModificationDate": 1690842208561,
+      "contentHash": "02cf959b00ba5c650708472f195f8b29",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/StorageSlotUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "remappings": [
+            "ds-test/=lib/forge-std/lib/ds-test/src/",
+            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "forge-std/=lib/forge-std/src/",
+            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
+            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
+            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+          ]
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlotUpgradeable"
+      ]
+    },
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/interfaces/IERC1967Upgradeable.sol": {
+      "lastModificationDate": 1690842208524,
+      "contentHash": "a5421a5e611067b9202e83329fbf6fc7",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/interfaces/IERC1967Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "remappings": [
+            "ds-test/=lib/forge-std/lib/ds-test/src/",
+            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "forge-std/=lib/forge-std/src/",
+            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
+            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
+            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+          ]
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1967Upgradeable"
+      ]
+    },
+    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/beacon/IBeaconUpgradeable.sol": {
+      "lastModificationDate": 1690842208542,
+      "contentHash": "21bffd733b4ca013e125a0ffe2e52254",
+      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/beacon/IBeaconUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "remappings": [
+            "ds-test/=lib/forge-std/lib/ds-test/src/",
+            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "forge-std/=lib/forge-std/src/",
+            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
+            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
+            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
+            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
+            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
+            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
+            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
+            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
+          ]
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeaconUpgradeable"
       ]
     },
     "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/token/ERC20/ERC20Upgradeable.sol": {
@@ -1140,273 +1407,6 @@
         "IERC20PermitUpgradeable"
       ]
     },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/interfaces/draft-IERC1822Upgradeable.sol": {
-      "lastModificationDate": 1690842208529,
-      "contentHash": "a6883cfd85607b16c121a02728369eb3",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/interfaces/draft-IERC1822Upgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "remappings": [
-            "ds-test/=lib/forge-std/lib/ds-test/src/",
-            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "forge-std/=lib/forge-std/src/",
-            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
-            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
-            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
-            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
-            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
-            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
-          ]
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC1822ProxiableUpgradeable"
-      ]
-    },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol": {
-      "lastModificationDate": 1690842208541,
-      "contentHash": "2587366284baa690cce0accaca1a20f9",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "remappings": [
-            "ds-test/=lib/forge-std/lib/ds-test/src/",
-            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "forge-std/=lib/forge-std/src/",
-            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
-            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
-            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
-            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
-            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
-            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
-          ]
-        }
-      },
-      "imports": [
-        "../beacon/IBeaconUpgradeable.sol",
-        "../../interfaces/IERC1967Upgradeable.sol",
-        "../../interfaces/draft-IERC1822Upgradeable.sol",
-        "../../utils/AddressUpgradeable.sol",
-        "../../utils/StorageSlotUpgradeable.sol",
-        "../utils/Initializable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.2"
-      ],
-      "artifacts": [
-        "ERC1967UpgradeUpgradeable"
-      ]
-    },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/utils/StorageSlotUpgradeable.sol": {
-      "lastModificationDate": 1690842208561,
-      "contentHash": "02cf959b00ba5c650708472f195f8b29",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/utils/StorageSlotUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "remappings": [
-            "ds-test/=lib/forge-std/lib/ds-test/src/",
-            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "forge-std/=lib/forge-std/src/",
-            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
-            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
-            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
-            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
-            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
-            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
-          ]
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "StorageSlotUpgradeable"
-      ]
-    },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/interfaces/IERC1967Upgradeable.sol": {
-      "lastModificationDate": 1690842208524,
-      "contentHash": "a5421a5e611067b9202e83329fbf6fc7",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/interfaces/IERC1967Upgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "remappings": [
-            "ds-test/=lib/forge-std/lib/ds-test/src/",
-            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "forge-std/=lib/forge-std/src/",
-            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
-            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
-            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
-            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
-            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
-            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
-          ]
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC1967Upgradeable"
-      ]
-    },
-    "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/lib/openzeppelin-contracts-upgradeable/contracts/proxy/beacon/IBeaconUpgradeable.sol": {
-      "lastModificationDate": 1690842208542,
-      "contentHash": "21bffd733b4ca013e125a0ffe2e52254",
-      "sourceName": "lib/openzeppelin-contracts-upgradeable/contracts/proxy/beacon/IBeaconUpgradeable.sol",
-      "solcConfig": {
-        "version": "0.8.19",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "storageLayout"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "remappings": [
-            "ds-test/=lib/forge-std/lib/ds-test/src/",
-            "erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "forge-std/=lib/forge-std/src/",
-            "openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/",
-            "openzeppelin-contracts/=lib/openzeppelin-contracts/",
-            "lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts:erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts:forge-std/=lib/openzeppelin-contracts/lib/forge-std/src/",
-            "lib/openzeppelin-contracts:openzeppelin/=lib/openzeppelin-contracts/contracts/",
-            "lib/openzeppelin-contracts-upgradeable:ds-test/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/lib/ds-test/src/",
-            "lib/openzeppelin-contracts-upgradeable:erc4626-tests/=lib/openzeppelin-contracts-upgradeable/lib/erc4626-tests/",
-            "lib/openzeppelin-contracts-upgradeable:forge-std/=lib/openzeppelin-contracts-upgradeable/lib/forge-std/src/",
-            "lib/openzeppelin-contracts-upgradeable:openzeppelin/=lib/openzeppelin-contracts-upgradeable/contracts/"
-          ]
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IBeaconUpgradeable"
-      ]
-    },
     "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/src/vault/VaultV2.sol": {
       "lastModificationDate": 1691151664441,
       "contentHash": "5b848e0c53ddaedee424646d7375844e",
@@ -1462,8 +1462,8 @@
       ]
     },
     "/Users/siphamandlamjoli/Documents/GitHub/staking-contract/src/token/VaultToken.sol": {
-      "lastModificationDate": 1691159538206,
-      "contentHash": "a5e0014ff45a10e073b708eef6b39fd5",
+      "lastModificationDate": 1691165515097,
+      "contentHash": "5b4e5ec66b132baa9b8da83663102212",
       "sourceName": "src/token/VaultToken.sol",
       "solcConfig": {
         "version": "0.8.19",

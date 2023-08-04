@@ -19,7 +19,7 @@ contract VaultToken is
     }
 
     function burn(uint256 amount) public onlyOwner {
-        _burn(address(0), amount);
+        _burn(owner(), amount);
     }
 
     function transfer(

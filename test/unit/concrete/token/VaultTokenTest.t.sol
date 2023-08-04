@@ -22,6 +22,17 @@ contract VaultTokenTest is DefaultTokenTest, TestingModifiers {
         vm.stopPrank();
     }
 
+    function test_BurnFrom_Admin()
+        public
+        whenNotPaused
+        whenInitialised
+    {
+        vm.startPrank(owner);
+        uint256 supplyBefore = token.totalSupply();
+        token.burn(defaultTransferAmount);
+        assertEq(token.totalSupply(), supplyBefore-defaultTransferAmount);
+        vm.stopPrank();
+    }
     function test_TransferFrom_Bob_ToSpha()
         public
         whenNotPaused

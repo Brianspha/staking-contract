@@ -1116,9 +1116,9 @@
       "src/token/VaultToken.sol:VaultToken": {
         "src": "src/token/VaultToken.sol:7",
         "version": {
-          "withMetadata": "f6e51452343d811fedb38747cec5fe68404542bcfd54deca7a63134b212b5d63",
-          "withoutMetadata": "1aeaf98b316fa5972e969cc5acb0e565167c9292168fb6a4df10d2d93d2d4485",
-          "linkedWithoutMetadata": "1aeaf98b316fa5972e969cc5acb0e565167c9292168fb6a4df10d2d93d2d4485"
+          "withMetadata": "334d7d9087ba258ffe9e660aa54518eab497bbe43e8449653d6c767ca9cea985",
+          "withoutMetadata": "ed36379744dba7dd7c4ca3582a271e2442d932d2a39a31d6fbd2306031642d07",
+          "linkedWithoutMetadata": "ed36379744dba7dd7c4ca3582a271e2442d932d2a39a31d6fbd2306031642d07"
         },
         "inherit": [
           "lib/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol:OwnableUpgradeable",
@@ -1503,7 +1503,7 @@
               "label": "stakers",
               "offset": 0,
               "slot": "301",
-              "type": "t_mapping(t_address,t_struct(Staker)4654_storage)",
+              "type": "t_mapping(t_address,t_struct(Staker)4652_storage)",
               "contract": "Vault",
               "src": "src/vault/Vault.sol:38"
             },
@@ -1609,7 +1609,7 @@
               "label": "mapping(address => mapping(address => uint256))",
               "numberOfBytes": "32"
             },
-            "t_mapping(t_address,t_struct(Staker)4654_storage)": {
+            "t_mapping(t_address,t_struct(Staker)4652_storage)": {
               "label": "mapping(address => struct Staker)",
               "numberOfBytes": "32"
             },
@@ -1621,7 +1621,7 @@
               "label": "string",
               "numberOfBytes": "32"
             },
-            "t_struct(Staker)4654_storage": {
+            "t_struct(Staker)4652_storage": {
               "label": "struct Staker",
               "members": [
                 {
@@ -1842,7 +1842,7 @@
               "label": "stakers",
               "offset": 0,
               "slot": "301",
-              "type": "t_mapping(t_address,t_struct(Staker)4654_storage)",
+              "type": "t_mapping(t_address,t_struct(Staker)4652_storage)",
               "contract": "Vault",
               "src": "src/vault/Vault.sol:38"
             },
@@ -1948,7 +1948,7 @@
               "label": "mapping(address => mapping(address => uint256))",
               "numberOfBytes": "32"
             },
-            "t_mapping(t_address,t_struct(Staker)4654_storage)": {
+            "t_mapping(t_address,t_struct(Staker)4652_storage)": {
               "label": "mapping(address => struct Staker)",
               "numberOfBytes": "32"
             },
@@ -1960,7 +1960,7 @@
               "label": "string",
               "numberOfBytes": "32"
             },
-            "t_struct(Staker)4654_storage": {
+            "t_struct(Staker)4652_storage": {
               "label": "struct Staker",
               "members": [
                 {
