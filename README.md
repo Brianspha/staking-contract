@@ -51,18 +51,15 @@ To test the contracts please run
 
 ### Deploying
 
-For deployment we have employed the Universal Upgradeable Proxy Standard (UUPS) standard by hardhat
+For deployment we have employed the Universal Upgradeable Proxy Standard (UUPS) standard by hardhat and openzepplin (https://docs.openzeppelin.com/upgrades-plugins/1.x/api-hardhat-upgrades)
 
 There are scripts that aid in the deployment of the Vault and Token one for local host running on port 8546 and one for deploy to mumbai testnet
 
 All deployment scripts denoted with **::local** refer to local deployment
 All deployment scripts denoted with **::polygon** refer to Polygon testnet deployment
 
-
 ### Deployed Contracts
 
 1. Vault Token: https://mumbai.polygonscan.com/address/0x4b3486f7b072748185BDc9F512b9d9D9bdABc139
 2. Rewards Token: https://mumbai.polygonscan.com/address/0x8bbb490a6fb95939c5348f0d97d993269f657cfc
 3. Static Vault: https://mumbai.polygonscan.com/address/0x66a0a007c49428Bd0C217598fa60b508a3F10795
-
-
